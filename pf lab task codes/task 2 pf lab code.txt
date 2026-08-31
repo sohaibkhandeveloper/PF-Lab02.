@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  
+  
+  int batch=2026;
+  char section = 'B';
+  float score = 82.75;
+  double fee = 268500;
+  
+  printf(" my batch year is\n\t:\t\t%d\n\n",batch);
+  printf(" my section is\n:\t\t\t%c\n",section);
+  printf(" my test score is\n:\t\t\t%f\n",score);
+  printf(" my first semester fee is\n:\t\t\t%f\t",fee);
+
+return 0;
+}

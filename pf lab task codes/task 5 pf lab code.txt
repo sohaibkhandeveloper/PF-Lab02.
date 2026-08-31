@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	float Celsius= 37.5;
+	float Fahrenheit=Celsius*9.0/5.0+32.00;
+	float kelvin= Celsius+273.15;
+	printf("=========================== temperature conversion=======\n\n");
+	
+	printf("temerature in celcius:%f\n\t\t\t\t\t",Celsius);
+	printf("temperature in fahrenheit:\t\n%f",Fahrenheit);
+	printf("temperature in kelvin:%f\n\n",kelvin);
+	
+	printf("=========================== temperature conversion=======\n\n");
+
+
+}

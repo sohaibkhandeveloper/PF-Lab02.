@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	double principal_loan_amount= 250000.00;
+	float annual_interest_rate= 8.5;
+	int loan_period_years =3;
+	
+	// calculation
+	double interest =Principal_*rate_*time;
+	double total_payable=principal+interest;
+	double monthly_installment=total_payable/time*12.0;
+	
+	printf("============simple interest====bank loan payback=====calculator\n");
+	
+	printf("=================================\n");
+	
+	printf("principal_loan_amount:%.3f\t\t\n",principal loan ammount);
+	printf("annual_interest_rate:%.3f\t\t\n",annual interest rate);
+	printf("loan_period_years:%.3f\t\t\n",loan period);
+	
+	return 0;
+	
+}

@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() 
+{
+    
+    float pf_marks = 88.0;
+    int pf_credit_hours = 3;
+
+    float calc_marks = 76.5;
+    int calc_credit_hours = 3;
+
+    float phys_marks = 82.0;
+    int phys_credit_hours = 2;
+
+    
+    float total_weighted_score = (pf_marks * pf_credit_hours) + 
+                                 (calc_marks * calc_credit_hours) + 
+                                 (phys_marks * phys_credit_hours);
+                                 
+    int total_credit_hours = pf_credit_hours + calc_credit_hours + phys_credit_hours;
+    
+    float weighted_average_percentage = total_weighted_score / total_credit_hours;
+
+    
+    printf("=========================================================\n");
+    printf("\tACADEMIC SEMESTER GRADE & WEIGHTED AVERAGE REPORT\n");
+    printf("Course Name\t\t\tMarks\t\tCredit Hours\n");
+    printf("---------------------------------------------------------\n");
+    printf("Programming Fundamentals\t%.1f\t\t%d\n", pf_marks, pf_credit_hours);
+    printf("Calculus & Analytical Geo.\t%.1f\t\t%d\n", calc_marks, calc_credit_hours);
+    printf("Applied Physics\t\t\t%.1f\t\t%d\n", phys_marks, phys_credit_hours);
+    printf("Total Weighted Score:\t\t%.2f\n", total_weighted_score);
+    printf("Total Credit Hours:\t\t%d\n", total_credit_hours);
+    printf("Weighted Average Percentage:\t%.2f%%\n", weighted_average_percentage);
+    printf("=========================================================\n");
+
+    return 0;
+}

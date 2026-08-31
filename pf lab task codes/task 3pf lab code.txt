@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+printf("To print a double quote, write: \\\"\n");
+printf("To print a literal backslash, write:\\\\\\n");
+printf("To insert a newline break, write:\\\\\n\\t\n");
+printf("To insert a horizontal tab stop, write:\\\t\\\\n\\\\\t");
+printf("To print a percent sign, write:%%%%%%\n\t\n");
+  
+  
+  return 0;
+
+}

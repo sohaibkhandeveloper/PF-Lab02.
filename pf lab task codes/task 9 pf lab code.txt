@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	
+	
+	double basic_salaray = 85000;
+	double house_rent_allowance = 0.20 * basic_salary;
+	double Medical_Allowance= 0.10*basic_salary;
+	double Gross_Salary=Basic Salary+House_rent_Allowance+ Medical_Allowance;
+	double Income_Tax Deduction=0.05*Gross_Salary;
+	double Net_Salary=Gross_Salary-income_deduction;
+	printf ("============Employee Monthly Salary & Tax Deduction Slip===\n");
+	
+	printf("basic salary:%.2f\n",basic_salary);
+	printf("house rent allowance:%.2f\n\t\n",house rent allowance);
+	printf("medical allowance:%.2f\n\t",medical allowance);
+	printf("gross salary:%.2f\n",gross salary);
+	printf("income tax deduction%.2f\n\t",income tax deduction);
+	printf("net salary:%.2f\n\t",net salary);
+	
+	return 0;
+	}

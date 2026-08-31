@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main()
+ {
+ 	
+ float vi =12.5; // in m/s
+ float a =3.2; // in m/s^2
+ float t = 6.0; // in seconds
+
+ float vf=vi+(a*t);
+ float s=(vi*t)+(0.5*a*t*t);
+ 
+printf("==========kinematics and equation of motion calculator===========\n"); 
+printf("initial velocity(vi):\t\t\t %.2f\n",vi);
+printf("acceleration(a):\t\t\t%.2f\n",a);
+printf("time(t):\t\t\t\t%.2f\n",t);
+printf("final velocity(vf):\t\t\t%.2f\n",vf);
+printf("total distance(s):\t\t\t%.2f\n",s);
+printf("==================================================================\n");
+
+
+return 0;
+}
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,43 @@
+include <stdio.h>
+
+int main() {
+  
+    int tea_qty = 3;
+    float tea_price = 60.00;
+
+    int samosa_qty = 4;
+    float samosa_price = 40.50;
+
+    int roll_qty = 2;
+    float roll_price = 120.00;
+
+    
+    float tea_subtotal = tea_qty * tea_price;
+    float samosa_subtotal = samosa_qty * samosa_price;
+    float roll_subtotal = roll_qty * roll_price;
+
+    
+    float bill_subtotal = tea_subtotal + samosa_subtotal + roll_subtotal;
+
+    
+    float gst = 0.16 * bill_subtotal;
+
+    
+    float final_payable = bill_subtotal + gst;
+
+    printf("=========================================\n");
+    printf("\t   FAST CAFETERIA RECEIPT\n");
+    
+    printf("Item\t\tQty\tUnit Price\tSubtotal\n");
+    
+    printf("Tea\t\t%d\t%.2f\t\t%.2f\n", tea_qty, tea_price, tea_subtotal);
+    printf("Samosa\t\t%d\t%.2f\t\t%.2f\n", samosa_qty, samosa_price, samosa_subtotal);
+    printf("Chicken Roll\t%d\t%.2f\t\t%.2f\n", roll_qty, roll_price, roll_subtotal);
+    
+    printf("Bill Subtotal:\t\t\t\t%.2f\n", bill_subtotal);
+    printf("GST (16%%):\t\t\t\t%.2f\n", gst);
+    printf("Total Payable:\t\t\t\t%.2f\n", final_payable);
+    printf("=========================================\n");
+
+    return 0;
+}
