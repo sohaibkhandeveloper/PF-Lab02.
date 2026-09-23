@@ -1,5 +1,8 @@
-# PF-Lab02.
+# Lab 04: Create and Manage Professional 
+Online Profiles and Digital Documents Using 
+Google Workspace/MS 365, LinkedIn, GitHub, and Google Sites
+
 NAME : MUHAMMAD SOHAIB
 ROLL NO : 26p-3069
-Section : S.E (1B)
-Instructor name : Muhammad Aais Rabbani
+Section : C.E (1A)
+Instructor name : MUHAMMAD QASIM
